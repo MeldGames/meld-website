@@ -21,4 +21,6 @@ author = "Shale"
 juice_logo_name = "Meld"
 juice_logo_path = "logo.svg"
 links = [
+    { name = "Blog", url = "/blog/" },
+    { name = "About", url = "/about" },
 ]

@@ -7,8 +7,11 @@
 </a>
 
 <nav>
-    {% for page in section.pages %}
+    <!--{% for page in section.pages %}
     <a class="nav-item subtitle-text" href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    {% endfor %}-->
+    {% for link in config.extra.links %}
+    <a class="nav-item subtitle-text" href="{{ link.url }}">{{ link.name }}</a>
     {% endfor %}
 </nav>
 {% endmacro render_header %}
