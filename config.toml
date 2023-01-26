@@ -23,4 +23,5 @@ juice_logo_path = "logo.svg"
 links = [
     { name = "Blog", url = "/blog/" },
     { name = "About", url = "/about" },
+    { name = "Patch Notes", url = "/lotusstone/patch_notes/" },
 ]

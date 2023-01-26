@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
+<div class="">
+
+</div>
 <div class="posts">
     {% set is_first_page = true %}
     {% if paginator is defined %}
@@ -9,9 +12,12 @@
     {% elif section is defined %}
         {% set pages = section.pages %}
     {% endif %}
-    {% for page in pages %}
-    {% if loop.index == 1 and is_first_page %}
-    <article class="first-entry">{% else %}<article class="post-entry">{% endif %}
+    {% for page in section.pages %}
+        {% if loop.index == 1 and is_first_page %}
+        <article class="first-entry">
+        {% else %}
+        <article class="post-entry">
+        {% endif %}
     {{ macros::page_in_list(page=page)}}
     </article>{% endfor %}
     {% if paginator is defined %}
