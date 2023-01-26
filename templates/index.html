@@ -12,7 +12,7 @@
     {% for page in pages %}
     {% if loop.index == 1 and is_first_page %}
     <article class="first-entry">{% else %}<article class="post-entry">{% endif %}
-    {{ post_macros::page_in_list(page=page)}}
+    {{ macros::page_in_list(page=page)}}
     </article>{% endfor %}
     {% if paginator is defined %}
     <footer class="page-footer">

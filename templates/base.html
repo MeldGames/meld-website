@@ -1,4 +1,4 @@
-{% import "post_macros.html" as post_macros %}
+
 {% import "_macros.html" as macros %}
 
 <!DOCTYPE html>
@@ -116,20 +116,6 @@
         <header class="pos-absolute" style="background-color: transparent">
             {{ macros::render_header() }}
         </header>
-        <header class="header">
-            <nav class="nav">
-                {% if page %}
-                <p class="logo"><a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></p>
-                {% else %}
-                <h1 class="logo"><a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></h1>
-                {% endif %}
-                <ul class="menu">
-                    {% block sidebar_nav %}{% for link in config.extra.links %}
-                    <li><a href="{{ link.url }}">{{ link.name }}</a></li>
-                    {% endfor %}{% endblock sidebar_nav %}
-                </ul>
-            </nav>
-        </header>
 
         <main class="main">
             {% block content %}
@@ -144,7 +130,7 @@
                 {% for page in pages %}
                 {% if loop.index == 1 and is_first_page %}
                 <article class="first-entry">{% else %}<article class="post-entry">{% endif %}
-                {{ post_macros::page_in_list(page=page)}}
+                {{ macros::page_in_list(page=page)}}
                 </article>{% endfor %}
                 {% if paginator is defined %}
                 <footer class="page-footer">

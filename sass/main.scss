@@ -1,5 +1,6 @@
 @import 'font-families';
 @import 'theme';
+@import "_ultility.scss";
 
 .post-meta a {
     color: var(--secondary);
@@ -10,15 +11,23 @@
 }
 
 .logo {
-    font-size: 28px;
-    margin: 10px;
+    font-size: 38px;
+    margin: 2px;
 
     img {
-      width: 45px;
+      width: 75px;
       margin: 0 10px 0 0;
     }
   }
 
+header.pos-absolute {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
   
 .nav-item {
     margin: 0 10px;
