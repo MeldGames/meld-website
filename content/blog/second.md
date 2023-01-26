@@ -1,5 +1,5 @@
 +++
-title = "My second post"
+title = "The 3 Theses"
 date = 2019-11-28
 
 [extra]
