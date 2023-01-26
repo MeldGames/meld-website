@@ -3,13 +3,10 @@ title = "My second post"
 date = 2019-11-28
 
 [extra]
-author = "Shale"
+author = "Aceeri"
 +++
-
-This is my second blog post.
-
-As someone said:
-
-{% quote(author="Vincent") %}
-A quote
-{% end %}
+ #Things that you have that are DOG:
+ 
+ Mouse sensitivity 
+ Cars
+ Not enough goldfish
