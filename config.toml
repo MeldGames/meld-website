@@ -22,6 +22,9 @@ juice_logo_name = "Meld"
 juice_logo_path = "logo.svg"
 links = [
     { name = "Blog", url = "/blog/" },
-    { name = "About", url = "/about" },
-    { name = "Patch Notes", url = "/lotusstone/patch_notes/" },
+    #{ name = "Patch Notes", url = "/lotusstone/patch_notes/" },
+]
+games=[
+    { name = "Lotus Stone", url = "/lotusstone/"},
+    { name = "Brewtalize", url = "/brewtalize/"}
 ]

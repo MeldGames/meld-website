@@ -117,10 +117,8 @@
             {{ macros::render_header() }}
         </header>
 
-        <main class="main">
             {% block content %}
             {% endblock content %}
-        </main>
 
         <footer class="footer">
             <span>&copy; {{ now() | date(format="%Y") }} <a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></span>

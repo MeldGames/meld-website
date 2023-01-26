@@ -1,32 +1,55 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="">
+<div class="hero">
+    {% block hero %}
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <section class="text-center">
+        <h1 class="heading-text" style="font-size: 50px">
+            Oh shit its happening
+        </h1>
+        <h3 class="title-text">
+            Meld is gonna make some games that <strong>aren't</strong> hot garbage
+        </h3>
+        <div>
+            <a class="github-button" href="https://github.com/huhu/juice" data-size="large" data-show-count="true"
+                aria-label="Star huhu/juice on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/huhu/juice/fork" data-size="large"
+                data-show-count="true" aria-label="Fork huhu/juice on GitHub">Fork</a>
+        </div>
+    </section>
 
+    <div class="explore-more text"
+        onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+        Explore More ⇩
+    </div>
+    {% endblock hero %}
 </div>
-<div class="posts">
-    {% set is_first_page = true %}
-    {% if paginator is defined %}
-        {% set pages = paginator.pages %}
-        {% set is_first_page = paginator.current_index == 1 %}
-    {% elif section is defined %}
-        {% set pages = section.pages %}
-    {% endif %}
-    {% for page in section.pages %}
-        {% if loop.index == 1 and is_first_page %}
-        <article class="first-entry">
-        {% else %}
-        <article class="post-entry">
+<main class="main" id="features">
+    <div class="posts">
+        {% set is_first_page = true %}
+        {% if paginator is defined %}
+            {% set pages = paginator.pages %}
+            {% set is_first_page = paginator.current_index == 1 %}
+        {% elif section is defined %}
+            {% set pages = section.pages %}
         {% endif %}
-    {{ macros::page_in_list(page=page)}}
-    </article>{% endfor %}
-    {% if paginator is defined %}
-    <footer class="page-footer">
-        <nav class="pagination">
-            {% if paginator.previous %}<a class="prev" href="{{ paginator.previous }}">← Previous</a>{% else %}<!--Hidden Previous-Button-->{% endif %}
-            {% if paginator.next %}<a class="next" href="{{ paginator.next }}">Next →</a>{% else %}<!--Hidden Next-Button-->{% endif %}
-        </nav>
-    </footer>
-    {% endif %}
-</div>
+        {% for page in section.pages %}
+            {% if loop.index == 1 and is_first_page %}
+            <article class="first-entry">
+            {% else %}
+            <article class="post-entry">
+            {% endif %}
+        {{ macros::page_in_list(page=page)}}
+        </article>{% endfor %}
+        {% if paginator is defined %}
+        <footer class="page-footer">
+            <nav class="pagination">
+                {% if paginator.previous %}<a class="prev" href="{{ paginator.previous }}">← Previous</a>{% else %}<!--Hidden Previous-Button-->{% endif %}
+                {% if paginator.next %}<a class="next" href="{{ paginator.next }}">Next →</a>{% else %}<!--Hidden Next-Button-->{% endif %}
+            </nav>
+        </footer>
+        {% endif %}
+    </div>
+</main>
 {% endblock content %}

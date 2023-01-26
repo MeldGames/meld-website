@@ -2,6 +2,10 @@
 @import 'theme';
 @import "_ultility.scss";
 
+a:hover{
+  text-decoration: none;
+}
+
 .post-meta a {
     color: var(--secondary);
 }
@@ -19,6 +23,26 @@
       margin: 0 10px 0 0;
     }
   }
+
+ul {
+  list-style-type: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-color: var(--primary-color);
+  overflow-x: hidden;
+  padding: 40px 30px;
+
+  .explore-more {
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+  }
+}
 
 header.pos-absolute {
   background-color: var(--primary-color);
