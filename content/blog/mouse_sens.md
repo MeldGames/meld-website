@@ -1,6 +1,6 @@
 +++
 title = "The 3 Theses"
-date = 2019-11-28
+date = 2023-01-26
 
 [extra]
 author = "Aceeri"
@@ -11,5 +11,5 @@ author = "Aceeri"
  Mouse sensitivity 
 
  Cars
- 
+
  Not enough goldfish
