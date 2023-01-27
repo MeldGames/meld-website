@@ -28,3 +28,4 @@ games=[
     { name = "Brewtalize", url = "/brewtalize/"},
     { name = "Lotus Stone", url = "/lotusstone/"},
 ]
+google_analytics = { enabled = true, id = "G-3GRJKDHQX9"}

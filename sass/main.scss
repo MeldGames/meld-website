@@ -33,10 +33,9 @@ ul.section {
   align-items: center;
   justify-content: space-evenly;
   height: 100vh;
-  background-color: var(--primary-color);
   overflow-x: hidden;
   padding: 40px 30px; 
-  background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(mountain.jpg);
+  /*background:linear-gradient(0deg, rgba(51, 47, 63, 0.815),rgba(140, 133, 151, 0.658)), url(mountain.jpg);*/
   background-size:cover;
   background-size: cover;
 
@@ -80,4 +79,43 @@ header.pos-absolute {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.toc-sticky {
+  background-color: #222226;
+  position: sticky;
+  top: 30px;
+  margin-top: 30px;
+  padding: 0 20px 20px;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.topout {
+  position: sticky;
+  bottom: 1px;
+  padding: 20px;
+  place-self: end;
+  margin-top: 110vh;
+  pointer-events: none;
+}
+.topleft {
+  margin-left: calc(100% - 80px);
+}
+.top {
+  pointer-events: all;
+  padding: 9px;
+  border-radius: 9px;
+  font-weight:700;
+  color: var(--a1);
+  background: var(--c2);
+}
+.top:hover {
+  text-decoration: none;
+  color: var(--c2);
+  background: var(--a1);
+  .svgh {
+    background: var(--c2);
+    opacity: 1;
+  }
 }

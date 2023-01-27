@@ -1,7 +1,7 @@
 +++
 title = "Brewtalize"
 sort_by = "date"
-template = "landing.html"
+template = "game.html"
 page_template = "blog-page.html"
 +++
 
