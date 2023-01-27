@@ -1,5 +1,5 @@
 +++
-title = "Trouble Brewing"
+title = "Potion Cellar"
 sort_by = "date"
 template = "game.html"
 page_template = "blog-page.html"

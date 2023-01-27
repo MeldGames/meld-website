@@ -25,7 +25,7 @@ links = [
     #{ name = "Patch Notes", url = "/lotusstone/patch_notes/" },
 ]
 games=[
-    { name = "Trouble Brewing", url = "/troublebrewing/"},
-    { name = "Lotus Stone", url = "/lotusstone/"},
+    { name = "Potion Cellar", url = "/potioncellar/"},
+    { name = "Project Lotus", url = "/lotus/"},
 ]
 google_analytics = { enabled = true, id = "G-3GRJKDHQX9"}
