@@ -11,9 +11,6 @@
         <div class="toc" aria-hidden="true">
         <div class="toc-sticky">
             {%- for h in toc %}
-            <div class="toc-item">
-            <a class="subtext" href="{{h.permalink | safe}}">{{ h.title }}</a>
-            </div>
             {%- if h.children %}
             {%- for h2 in h.children %}
             <div class="toc-item-child">
