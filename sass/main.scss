@@ -17,12 +17,18 @@ a:hover{
 .logo {
     font-size: 38px;
     margin: 2px;
+    display:flex;
+    padding:10px;
 
-    img {
+    img, svg {
       width: 75px;
       margin: 0 10px 0 0;
     }
   }
+
+.dark .logo svg{
+  fill:#fff;
+}
 
 ul.section {
   list-style-type: none;
@@ -82,11 +88,12 @@ header.pos-absolute {
 }
 
 .toc-sticky {
-  background-color: #222226;
+  background-color: var(--code-bg);
   position: sticky;
   top: 30px;
   margin-top: 30px;
-  padding: 0 20px 20px;
+  border-radius:2px;
+  padding: 15px;
   max-height: 100vh;
   overflow: auto;
 }

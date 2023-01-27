@@ -1,5 +1,5 @@
 +++
-title = "Brewtalize"
+title = "Trouble Brewing"
 sort_by = "date"
 template = "game.html"
 page_template = "blog-page.html"
