@@ -19,7 +19,7 @@ highlight_code = false
 # Put all your custom variables here
 author = "Shale"
 juice_logo_name = "Meld"
-juice_logo_path = "logo.svg"
+juice_logo_path = "static/logo.svg"
 links = [
     { name = "Blog", url = "/blog/" },
     #{ name = "Patch Notes", url = "/lotusstone/patch_notes/" },

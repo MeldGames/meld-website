@@ -2,7 +2,7 @@
 {% set section = get_section(path="_index.md") %}
 <a href="{{ section.permalink | safe }}">
     <div class="logo">
-        {{ load_data(url=get_url(path=config.extra.juice_logo_path)) | safe }}       
+        {{ load_data(path=config.extra.juice_logo_path) | safe }}  
     </div>
 </a>
 
