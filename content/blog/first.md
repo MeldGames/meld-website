@@ -7,4 +7,4 @@ author = "Shale"
 +++
 
 Yes, this is just a plug for my youtube channel
-{{ youtube(id="Ebk52wGWLFk") }}
+{{ youtube(id="Ebk52wGWLFk", class="yt-container") }}

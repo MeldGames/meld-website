@@ -6,10 +6,8 @@ date = 2023-01-26
 author = "Aceeri"
 +++
 
-# Things that you have that are DOG:
+## Things that you have that are 🐕💩
  
- Mouse sensitivity 
-
- Cars
-
- Not enough goldfish
+ - Mouse sensitivity 
+ - Cars
+ - Not enough goldfish
