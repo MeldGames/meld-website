@@ -14,6 +14,20 @@ a:hover{
     box-shadow: 0 1px 0 var(--primary);
 }
 
+.inline {
+  display:inline-block;
+  svg{
+    display:inline-block;
+    vertical-align:middle;
+  }
+  img{
+    display:inline-block;
+    vertical-align:middle;
+    width:1.5em;
+    height:1.5em;
+  }
+}
+
 .logo {
     font-size: 38px;
     margin: 2px;
