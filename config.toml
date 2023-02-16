@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://www.meld.games"
+base_url = "https://meld.games"
 title = "Meld"
 
 # Whether to automatically compile all Sass files in the sass directory
