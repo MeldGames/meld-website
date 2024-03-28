@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://meld.games/</loc>
+    </url>
+    <url>
+        <loc>https://meld.games/blog/</loc>
+    </url>
+    <url>
+        <loc>https://meld.games/blog/first/</loc>
+        <lastmod>2023-01-25</lastmod>
+    </url>
+    <url>
+        <loc>https://meld.games/blog/mouse-sens/</loc>
+        <lastmod>2023-01-26</lastmod>
+    </url>
+    <url>
+        <loc>https://meld.games/gamers/</loc>
+        <lastmod>2017-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://meld.games/lotus/</loc>
+    </url>
+    <url>
+        <loc>https://meld.games/lotus/patch_notes/</loc>
+    </url>
+    <url>
+        <loc>https://meld.games/lotus/patch_notes/1-3/</loc>
+        <lastmod>2019-11-28</lastmod>
+    </url>
+    <url>
+        <loc>https://meld.games/potioncellar/</loc>
+    </url>
+</urlset>
