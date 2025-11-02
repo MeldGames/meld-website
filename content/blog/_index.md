@@ -1,10 +1,9 @@
 +++
-title = "Just some thoughts"
+title = "Thoughts"
 sort_by = "date"
 template = "blog.html"
 page_template = "blog-page.html"
 
-
 [extra]
-author = "Shale"
+author = "Aceeri"
 +++
