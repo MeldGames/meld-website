@@ -17,7 +17,7 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-author = "Shale"
+author = "Aceeri"
 juice_logo_name = "Meld"
 juice_logo_path = "static/logo.svg"
 links = [
@@ -25,7 +25,6 @@ links = [
     #{ name = "Patch Notes", url = "/lotusstone/patch_notes/" },
 ]
 games=[
-    { name = "Potion Cellar", url = "/potioncellar/"},
-    { name = "Project Lotus", url = "/lotus/"},
+    { name = "Curators", url = "/curators/"},
 ]
-google_analytics = { enabled = true, id = "G-3GRJKDHQX9"}
+google_analytics = { enabled = true, id = "G-J3QXSBREPQ"}
